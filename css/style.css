@@ -361,7 +361,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(19, 39, 57, 0.8);
+  background: rgb(241, 164, 31, 0.7);
   transition: 0.4s;
 }
 
@@ -382,7 +382,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #74b5fc;
+  color: #34C0DF;
   text-decoration: none;
 }
 
