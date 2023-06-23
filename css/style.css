@@ -158,14 +158,14 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: -10px 0;
-  max-height: 55px;
+  margin: -4px 0;
+  max-height: 45px;
 }
 
 #header .logo2 img {
   padding: 0;
   margin: 2px 6px;
-  max-height: 40px;
+  max-height: 35px;
 }
 
 .main-pages {
@@ -361,7 +361,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgb(241, 164, 31, 0.7);
+  background: rgba(80, 83, 92, 0.8);
   transition: 0.4s;
 }
 
@@ -386,7 +386,6 @@ h6 {
   text-decoration: none;
 }
 
-/*--------------------------------------------------------------
 .mobile-nav .drop-down > a:after {
   content: "\f078";
   font-family: FontAwesome;
@@ -429,7 +428,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: #9E69C5;
 }
 
 .mobile-nav-overly {
@@ -439,7 +438,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(19, 39, 57, 0.8);
+  background: rgba(233, 231, 232, 0.8);
   overflow: hidden;
   display: none;
 }
@@ -455,7 +454,6 @@ h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
---------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Sections
