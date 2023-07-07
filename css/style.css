@@ -248,10 +248,13 @@ h6 {
 
 /* Desktop Navigation */
 
+/*--------------------------------------------------------------
 .main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
+  Drop Down 
+  Deep Drop Down 
 }
+--------------------------------------------------------------*/
+
 
 .main-nav,
 .main-nav * {
@@ -388,7 +391,7 @@ h6 {
 
 .mobile-nav .drop-down > a:after {
   content: "\f078";
-  font-family: FontAwesome;
+  font-family: 'Encode Sans', sans-serif;
   padding-left: 10px;
   position: absolute;
   right: 15px;
@@ -744,7 +747,7 @@ h6 {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: #3395ff;
   border-radius: 50px;
   text-transform: uppercase;
   background: #ecf5ff;
@@ -754,7 +757,7 @@ h6 {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background: #3395ff;
   color: #fff;
 }
 
@@ -821,7 +824,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #007bff;
+  color: #9E69C5;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -840,7 +843,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #007bff;
+  background: #9E69C5;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -870,6 +873,24 @@ h6 {
   opacity: 1;
 }
 
+#portfolio .icon-box {
+font-family: 'Encode Sans', sans-serif;
+margin-left: 400px;
+line-height: 20px;
+font-size: 14px;
+float: right;
+margin-top: 40px;
+position: absolute;
+}
+
+#portfolio .icon-box a {
+  color: #1E1E1E;
+}
+
+#portfolio .icon-box:hover .title a {
+  color: #34C0DF;
+}
+
 /* Testimonials Section
 --------------------------------*/
 
@@ -885,7 +906,7 @@ h6 {
 #testimonials .testimonial-item .testimonial-img {
   width: 120px;
   border-radius: 50%;
-  border: 4px solid #fff;
+  border: 4px solid #C5DA2D;
   float: left;
 }
 
@@ -893,20 +914,23 @@ h6 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #1E1E1E;
   margin-left: 140px;
+  font-family:'IBM Plex Mono', monospace;
 }
 
 #testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #50535c;
   margin: 0 0 15px 0;
   margin-left: 140px;
+  font-family:'IBM Plex Mono', monospace
 }
 
 #testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 0 15px 140px;
+  
 }
 
 #testimonials .owl-nav,
@@ -1320,16 +1344,19 @@ h6 {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  font-family:'IBM Plex Mono', monospace;
 }
 
 #footer .credits {
   text-align: center;
   font-size: 13px;
   color: #f1f7ff;
+  font-family:'IBM Plex Mono', monospace;
 }
 
 #footer .credits a {
   color: #c8e4f5;
+  font-family:'IBM Plex Mono', monospace;
 }
 
 #footer .credits a:hover {
