@@ -736,16 +736,15 @@ h6 {
 
 #portfolio #portfolio-flters {
   padding: 0;
-  margin: 5px 0 35px 0;
-  list-style: none;
-  text-align: center;
+  margin: 35px 500px 35px 0;
+  list-style-type: circle;
+  text-align: justify;
 }
 
 #portfolio #portfolio-flters li {
   cursor: pointer;
-  margin: 15px 15px 15px 0;
-  display: inline-block;
-  padding: 6px 20px;
+  margin: 15px 15px 15px 15px;
+  padding: 6px 50px;
   font-size: 12px;
   line-height: 20px;
   color: #3395ff;
@@ -754,6 +753,9 @@ h6 {
   background: #ecf5ff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
+  list-style-type: circle;
+  list-style-position: outside;
+  text-align: justify;
 }
 
 #portfolio #portfolio-flters li:hover,
@@ -762,9 +764,12 @@ h6 {
   color: #fff;
 }
 
+/*--------------------------------------------------------------
 #portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
+--------------------------------*/
+
 
 #portfolio .portfolio-item {
   position: relative;
@@ -872,24 +877,6 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-}
-
-#portfolio .icon-box {
-font-family: 'Encode Sans', sans-serif;
-margin-left: 400px;
-line-height: 20px;
-font-size: 14px;
-float: right;
-margin-top: 40px;
-position: absolute;
-}
-
-#portfolio .icon-box a {
-  color: #1E1E1E;
-}
-
-#portfolio .icon-box:hover .title a {
-  color: #34C0DF;
 }
 
 /* Testimonials Section
